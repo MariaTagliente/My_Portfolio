@@ -1,7 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdOutlineFileDownload } from "react-icons/md";
-import Profile from "../../assets/profile.jpg";
+import Profile from "../../assets/profile.png";
 import CornerFrame from "./CornerFrame";
 
 export default function Hero(){
