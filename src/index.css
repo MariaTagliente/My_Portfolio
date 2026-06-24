@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme{
+    --font-orbitron: "Orbitron", sans-serif;
+    --font-inter: "Inter", sans-serif;
+    --turchese: #00ffff;
+    --violet: #1b1d3d;
+    --violetDark: #0a0c28;
+    --violetMedium: #14193f;
+    --violetLight: #363d69;
+    --pink: #dc69ff;
+    --shadowTurchese: 0 10px 25px rgba(0, 255, 255, 0.25);
+}
+
+/* EFFETTO GLOW SU NOME E COGNOME */
+.cyber-name {
+  color: #ffffff;
+  text-shadow:
+    0 0 10px rgba(255,255,255, 0.2),
+    0 0 20px rgba(255,255,255, 0.5);
+}
+
+.cyber-surname {
+  color: #00ffff;
+  text-shadow:
+    0 0 10px rgba(0,255,255, 0.),
+    0 0 20px rgba(0,255,255, 0.5);
+}
+
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    #0a0c28,
+    #00ffff,
+    #dc69ff,
+    #0a0c28
+  );
+  background-size: 300% 300%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes float {
+  0% { transform: translate(0px, 0px) scale(1); }
+  50% { transform: translate(40px, -30px) scale(1.1); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.float-slow {
+  animation: float 10s ease-in-out infinite;
+}
+
+
