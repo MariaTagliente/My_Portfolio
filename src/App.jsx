@@ -1,8 +1,7 @@
-import { RouterProvider } from 'react-router'
 import './App.css'
 import Navbar from './Components/Navbar'
-import Homepage from './Components/Homepage'
 import Hero from './Components/HeroComponents/Hero'
+import Main from './Components/Main'
 
 function App() {
 
@@ -11,7 +10,7 @@ function App() {
       <div className="min-h-screen bg-(--violetMedium)">
         <Navbar/>
         <Hero/>
-        <Homepage/>
+        <Main/>
       </div>
     </>
   )

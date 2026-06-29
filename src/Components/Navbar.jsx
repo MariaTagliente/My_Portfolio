@@ -6,7 +6,7 @@ export default function Navbar(){
     return(
         <>
            <div className="w-full font-inter uppercase z-50">
-            <div className="container mx-auto px-6 md:px-0 navbar">
+            <div className="container mx-auto px-6 navbar">
 
                 <div className="navbar-start flex items-center mt-1">
 
@@ -20,8 +20,8 @@ export default function Navbar(){
                         <ul className="menu menu-horizontal px-1 gap-2">
                             <li><a href="" className="hover:text-gray-400">chi sono</a></li>
                             <li><a href="" className="hover:text-gray-400">competenze</a></li>
-                            <li><a href="" className="hover:text-gray-400">formazione</a></li>
                             <li><a href="" className="hover:text-gray-400">progetti</a></li>
+                            <li><a href="" className="hover:text-gray-400">formazione</a></li>
                             <li><a href="" className="hover:text-gray-400">passioni</a></li>
                             <li><a href="" className="hover:text-gray-400">contatti</a></li>
                         </ul>               
@@ -39,8 +39,8 @@ export default function Navbar(){
                             <ul className="menu dropdown-content gap-1 absolute right-0 translate-x-2 mt-4 z-[100] p-4 border border-(--turchese)/20 bg-(--violetDark)/70 backdrop-blur-sm rounded-box w-60 text-white">
                                <li><a className="hover:text-gray-400">chi sono</a></li>
                                <li><a className="hover:text-gray-400">competenze</a></li>
-                               <li><a className="hover:text-gray-400">formazione</a></li>
                                <li><a className="hover:text-gray-400">progetti</a></li>
+                               <li><a className="hover:text-gray-400">formazione</a></li>
                                <li><a className="hover:text-gray-400">passioni</a></li>
                                <li><a className="hover:text-gray-400">contatti</a></li>
                             </ul>
