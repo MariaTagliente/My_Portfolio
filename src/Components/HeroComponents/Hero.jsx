@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowDown } from "react-icons/fa6";
 import { MdOutlineFileDownload } from "react-icons/md";
 import Profile from "../../assets/profile.png";
 import CornerFrame from "./CornerFrame";
@@ -34,12 +34,12 @@ export default function Hero(){
                     </p>
 
                     <div className="mt-6 flex flex-col md:flex-row gap-6 font-semibold text-sm items-center md:items-start justify-center md:justify-start">
-                        <button className="px-5 py-2.5 cursor-pointer rounded-md bg-(--turchese) text-(--violetDark) uppercase shadow-lg shadow-gray-900 hover:scale-105 transition duration-300 flex items-center gap-3">
+                        <button className="px-5 py-2.5 cursor-pointer rounded-md bg-(--turchese) text-(--violetDark) uppercase shadow-lg shadow-black/40 hover:scale-105 transition duration-300 flex items-center gap-3">
                             Scopri i miei progetti
-                            <FaArrowRightLong size={25} className="text-(--violetDark)"/>
+                            <FaArrowDown size={25} className="text-(--violetDark)"/>
                         </button>
                         
-                        <button className="px-5 py-2.5 cursor-pointer rounded-md border border-(--turchese)/50 text-white uppercase shadow-lg shadow-gray-900 hover:border-(--turchese) transition flex items-center gap-3">
+                        <button className="px-5 py-2.5 cursor-pointer rounded-md border border-(--turchese)/40 text-white uppercase shadow-lg shadow-black/40 hover:border-(--turchese) transition flex items-center gap-3">
                             Scarica cv
                             <MdOutlineFileDownload size={25} className="text-(--turchese)"/>
                         </button>

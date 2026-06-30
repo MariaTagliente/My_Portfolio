@@ -7,6 +7,7 @@ import Skills from "./Skills";
 import { skillsData } from "../data/skillsData";
 import { HiOutlineFolder } from "react-icons/hi";
 import { projectsData } from "../data/projectsData";
+import Projects from "./Projects";
 
 export default function Main(){
     return(
@@ -21,7 +22,9 @@ export default function Main(){
               <Skills data={skillsData}/>
             </Section>
 
-            <Section icon={HiOutlineFolder} title={projectsData.title} ></Section>
+            <Section icon={HiOutlineFolder} title={projectsData.title}>
+              <Projects data={projectsData}/>
+            </Section>
 
           </main>
         </>

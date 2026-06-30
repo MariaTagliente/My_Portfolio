@@ -1,6 +1,6 @@
 export default function Section({icon: Icon, title, children}){
     return(
-        <article className="flex flex-col pb-6 border-b border-(--turchese)/30">
+        <article className="flex flex-col pb-7 border-b border-(--turchese)/30">
                         
             <div className="flex items-start gap-6">
                 <span className="border border-(--turchese) rounded-lg px-4 py-2">
@@ -14,7 +14,7 @@ export default function Section({icon: Icon, title, children}){
                 </div>        
             </div>
 
-            <div className="pl-20 mt-4">
+            <div className="md:pl-20 mt-8 md:mt-4">
                 {children}                   
             </div>                
         </article>

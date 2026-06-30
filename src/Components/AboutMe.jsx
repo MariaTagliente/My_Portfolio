@@ -10,12 +10,12 @@ export default function AboutMe({data}){
                 </div>
 
                 
-                <div className="flex flex-wrap gap-6">
+                <div className="flex flex-wrap justify-center gap-6">
 
                     {data.cards.map((card)=>{
                         const Icon = card.icon;
                         return(
-                            <div key={card.id} className="w-46 h-55 border border-(--turchese)/50 rounded-lg flex flex-col justify-center items-center shadow-lg shadow-gray-900 hover:border-(--turchese) hover:scale-105 transition duration-300">
+                            <div key={card.id} className="w-46 h-55 border border-(--turchese)/40 rounded-lg flex flex-col justify-center items-center shadow-lg shadow-black/40 hover:border-(--turchese) hover:shadow-xl hover:scale-105 transition duration-300">
                                 <Icon size={32} className="text-(--pink)"/>
                                 <h3 className="text-(--turchese) uppercase text-lg mt-5"> 
                                     {card.title} 
